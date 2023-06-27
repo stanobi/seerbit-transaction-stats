@@ -3,3 +3,6 @@ services:
   stat-app:
     image: stat-app
     build: .
+    restart: always
+    ports:
+      - 8080:8080

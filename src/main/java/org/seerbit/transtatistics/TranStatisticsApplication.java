@@ -16,6 +16,6 @@ public class TranStatisticsApplication {
     @PostConstruct
     public void init(){
         // Setting Spring Boot SetTimeZone
-        TimeZone.setDefault(TimeZone.getTimeZone("GMT+1"));
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
     }
 }
